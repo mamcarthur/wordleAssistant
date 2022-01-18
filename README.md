@@ -22,10 +22,11 @@ Clone the repository.
 
 ## Usage
 
-To let it solve archived puzzles in a browser, give it the day (between 1 and 212 at the time of writing) as an argument in your terminal. For example, for Day 40:
+To let it solve archived puzzles in a browser, give it the day (between 1 and 212 at the time of writing) as an argument in your terminal. For example, for Day 22:
 ```bash
-python3 solveWordle.py 40
+python3 solveWordle.py 22
 ```
+https://user-images.githubusercontent.com/45470793/149936989-58f282ed-6c87-47b1-8185-1f9655da9c1f.mov
 
 To get help with a game you're playing on your own, use the ```-t``` flag.
 ```bash
@@ -33,6 +34,8 @@ $ python3 solveWordle.py -t
 ```
 It will give you a recommendation and a list of alternative options. As long as you provide feedback correctly, you can use any guess you want in the game. You can see an example of proper feedback below, where "e" is the only correctly placed letter, "a" is somewhere in the word but misplaced, and "r," "i" and "s" do not appear in the word at all. 
 ```
+
+
 TRY: RAISE
 
 	Alts:
