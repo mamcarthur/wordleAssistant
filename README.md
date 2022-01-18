@@ -46,7 +46,7 @@ TRY: RAISE
 	8. RENAL
 Give correctly placed letters. Example: ---S-		----e
 Give correct but misplaced letters. Example: --O--	-a---
-Give wrong letters. Example: AR--E			        r-is-
+Give wrong letters. Example: AR--E			r-is-
 ```
 
 
