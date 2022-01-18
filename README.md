@@ -22,13 +22,13 @@ Clone the repository.
 
 ## Usage
 
-To let it solve archived puzzles in a browser, give it the day (between 1 and 212 at the time of writing) as an argument in your terminal. For example, for Day 22:
+To let it solve archived puzzles in a browser, give it the day (between 1 and 212 at the time of writing) as an argument in your terminal. For example, for [Day 22](https://metzger.media/games/wordle-archive/?day=22):
 ```bash
 python3 solveWordle.py 22
 ```
 https://user-images.githubusercontent.com/45470793/149936989-58f282ed-6c87-47b1-8185-1f9655da9c1f.mov
 
-To get help with a game you're playing on your own, use the ```-t``` flag.
+To get help with a game you're playing on your own, use the ```-t``` flag for "terminal mode":
 ```bash
 $ python3 solveWordle.py -t
 ```
