@@ -1,6 +1,6 @@
 # Wordle Assistant
 
-Wordle Assistant solves wordle puzzles, either autonomously or with your help. 
+Wordle Assistant solves [Wordle](https://www.powerlanguage.co.uk/wordle/) puzzles, either autonomously or with your help. 
 
 Wordle is a popular game in which a player has six chances to guess a five-letter word. Guesses must be real English words. After each guess, the player receives feedback for each letter: green if it's correct, yellow if a letter appears in the word but is in the wrong spot, and gray if it's completely wrong. 
 
