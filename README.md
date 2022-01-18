@@ -32,7 +32,7 @@ To get help with a game you're playing on your own, use the ```-t``` flag for "t
 ```bash
 $ python3 solveWordle.py -t
 ```
-It will give you a recommendation and a list of alternative options. As long as you provide feedback correctly, you can use any guess you want in the game. You can see an example of proper feedback below, where "e" is the only correctly placed letter, "a" is somewhere in the word but misplaced, and "r," "i" and "s" do not appear in the word at all. 
+It will give you a recommendation and a list of alternative options. As long as you provide feedback correctly, you can guess any word of your choosing; it doesn't have to be among the recommendations. You can see an example of proper feedback below, where "e" is the only correctly placed letter, "a" is somewhere in the word but misplaced, and "r," "i" and "s" do not appear in the word at all. 
 ```
 
 
