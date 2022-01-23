@@ -20,10 +20,12 @@ def scrape_feedback(round_):
     correct = list("-----")
     misplaced = list("-----")
     wrong = list("-----")
-    guess = browser.find_element_by_xpath(f"/html/body/div/div[1]/div[{round_}]")
+    guess = browser.find_element_by_xpath(
+        f"/html/body/div[1]/div[1]/div[1]/div[{round_}]"
+    )
     for i in range(5):
         tile = guess.find_element_by_xpath(
-            f'//*[@id="app"]/div[1]/div[{round_}]/div[{i+1}]'
+            f'//*[@id="app"]/div[1]/div[1]/div[{round_}]/div[{i+1}]'
         )
         letterValue = tile.text.lower()
         status = tile.get_attribute("class").split()[-1]
